@@ -11,6 +11,8 @@ struct ContentView: View {
   
   //MARK: - PROPERTIES
   
+  let animals: [AnimalList] = Bundle.main.decode("animals.json")
+  
   //MARK: - BODY
   
   var body: some View {
@@ -23,6 +25,17 @@ struct ContentView: View {
         /*
           .listRowBackground(Color.clear)    need if use scaledToFit parameter in CoverImageView
         */
+        
+        ForEach(animals) { animal in
+          
+          NavigationLink(destination: AnimalDetailView(animal: animal)) {
+            AnimalListItemView(animal: animal)
+          } //: LINK
+          
+          /*
+            .listRowBackground(Color.clear)    need if use scaledToFit parameter in CoverImageView
+          */
+        }
         
       } //: LIST
       .navigationBarTitle("Africa", displayMode: .large)
