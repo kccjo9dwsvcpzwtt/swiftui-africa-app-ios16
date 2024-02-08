@@ -44,6 +44,7 @@
 		CAE41B192B6317E6009D782B /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B182B6317E6009D782B /* VideoListItemView.swift */; };
 		CAE41B1B2B66A8ED009D782B /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B1A2B66A8ED009D782B /* VideoPlayerView.swift */; };
 		CAE41B1E2B66AAC7009D782B /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B1D2B66AAC7009D782B /* VideoPlayerHelper.swift */; };
+		CAE41B202B6D53B3009D782B /* LocationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B1F2B6D53B3009D782B /* LocationListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		CAE41B182B6317E6009D782B /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		CAE41B1A2B66A8ED009D782B /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		CAE41B1D2B66AAC7009D782B /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		CAE41B1F2B6D53B3009D782B /* LocationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				CAE41B002B4DAAAE009D782B /* CoverImageModel.swift */,
 				CAE41B072B4EFC33009D782B /* AnimalListModel.swift */,
 				CAE41B162B63166C009D782B /* VideoListModel.swift */,
+				CAE41B1F2B6D53B3009D782B /* LocationListModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				CAE41B0E2B61409C009D782B /* InsetGalleryView.swift in Sources */,
 				CAE41B082B4EFC34009D782B /* AnimalListModel.swift in Sources */,
 				CAE41B0C2B4FF9DB009D782B /* HeadingView.swift in Sources */,
+				CAE41B202B6D53B3009D782B /* LocationListModel.swift in Sources */,
 				CAE41B1B2B66A8ED009D782B /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
