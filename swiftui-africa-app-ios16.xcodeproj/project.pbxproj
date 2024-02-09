@@ -46,6 +46,7 @@
 		CAE41B1E2B66AAC7009D782B /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B1D2B66AAC7009D782B /* VideoPlayerHelper.swift */; };
 		CAE41B202B6D53B3009D782B /* LocationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B1F2B6D53B3009D782B /* LocationListModel.swift */; };
 		CAE41B222B74767A009D782B /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B212B74767A009D782B /* MapAnnotationView.swift */; };
+		CAE41B242B75CAF7009D782B /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B232B75CAF7009D782B /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		CAE41B1D2B66AAC7009D782B /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		CAE41B1F2B6D53B3009D782B /* LocationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListModel.swift; sourceTree = "<group>"; };
 		CAE41B212B74767A009D782B /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		CAE41B232B75CAF7009D782B /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				CAE41B182B6317E6009D782B /* VideoListItemView.swift */,
 				CAE41B1A2B66A8ED009D782B /* VideoPlayerView.swift */,
 				CAE41B212B74767A009D782B /* MapAnnotationView.swift */,
+				CAE41B232B75CAF7009D782B /* MotionAnimationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				CAE41B0E2B61409C009D782B /* InsetGalleryView.swift in Sources */,
 				CAE41B082B4EFC34009D782B /* AnimalListModel.swift in Sources */,
 				CAE41B0C2B4FF9DB009D782B /* HeadingView.swift in Sources */,
+				CAE41B242B75CAF7009D782B /* MotionAnimationView.swift in Sources */,
 				CAE41B202B6D53B3009D782B /* LocationListModel.swift in Sources */,
 				CAE41B1B2B66A8ED009D782B /* VideoPlayerView.swift in Sources */,
 			);
