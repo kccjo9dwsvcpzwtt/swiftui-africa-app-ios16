@@ -45,6 +45,7 @@
 		CAE41B1B2B66A8ED009D782B /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B1A2B66A8ED009D782B /* VideoPlayerView.swift */; };
 		CAE41B1E2B66AAC7009D782B /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B1D2B66AAC7009D782B /* VideoPlayerHelper.swift */; };
 		CAE41B202B6D53B3009D782B /* LocationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B1F2B6D53B3009D782B /* LocationListModel.swift */; };
+		CAE41B222B74767A009D782B /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B212B74767A009D782B /* MapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		CAE41B1A2B66A8ED009D782B /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		CAE41B1D2B66AAC7009D782B /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		CAE41B1F2B6D53B3009D782B /* LocationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListModel.swift; sourceTree = "<group>"; };
+		CAE41B212B74767A009D782B /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				CAE41B142B62CE01009D782B /* ExternalWebLinkView.swift */,
 				CAE41B182B6317E6009D782B /* VideoListItemView.swift */,
 				CAE41B1A2B66A8ED009D782B /* VideoPlayerView.swift */,
+				CAE41B212B74767A009D782B /* MapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				CAE41B1E2B66AAC7009D782B /* VideoPlayerHelper.swift in Sources */,
 				CAE41B042B4DAC27009D782B /* CodableBundleExtention.swift in Sources */,
 				CAE41B122B62A1EA009D782B /* InsetMapView.swift in Sources */,
+				CAE41B222B74767A009D782B /* MapAnnotationView.swift in Sources */,
 				CAE41AC72B4C2277009D782B /* swiftui_africa_app_ios16App.swift in Sources */,
 				CAE41B152B62CE01009D782B /* ExternalWebLinkView.swift in Sources */,
 				CAE41AF72B4C723B009D782B /* VideoListView.swift in Sources */,
