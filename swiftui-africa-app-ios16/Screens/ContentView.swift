@@ -39,6 +39,13 @@ struct ContentView: View {
         
       } //: LIST
       .navigationBarTitle("Africa", displayMode: .large)
+      .toolbar {
+        ToolbarItem(placement: .navigationBarTrailing) {
+          HStack(spacing: 16) {
+            
+          } //: HSTACK
+        } //: BUTTONS
+      } //: TOOLBAR
     } //: NAVIGATION STACK
   }
 }
