@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA16ECF02B7AB4B000B35487 /* AnimalGreedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA16ECEF2B7AB4B000B35487 /* AnimalGreedItemView.swift */; };
 		CAE41AC72B4C2277009D782B /* swiftui_africa_app_ios16App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41AC62B4C2277009D782B /* swiftui_africa_app_ios16App.swift */; };
 		CAE41AC92B4C2277009D782B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41AC82B4C2277009D782B /* ContentView.swift */; };
 		CAE41ACB2B4C2278009D782B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE41ACA2B4C2278009D782B /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA16ECEF2B7AB4B000B35487 /* AnimalGreedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGreedItemView.swift; sourceTree = "<group>"; };
 		CAE41AC32B4C2277009D782B /* swiftui-africa-app-ios16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-africa-app-ios16.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE41AC62B4C2277009D782B /* swiftui_africa_app_ios16App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_africa_app_ios16App.swift; sourceTree = "<group>"; };
 		CAE41AC82B4C2277009D782B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				CAE41B1A2B66A8ED009D782B /* VideoPlayerView.swift */,
 				CAE41B212B74767A009D782B /* MapAnnotationView.swift */,
 				CAE41B232B75CAF7009D782B /* MotionAnimationView.swift */,
+				CA16ECEF2B7AB4B000B35487 /* AnimalGreedItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				CAE41B152B62CE01009D782B /* ExternalWebLinkView.swift in Sources */,
 				CAE41AF72B4C723B009D782B /* VideoListView.swift in Sources */,
 				CAE41AFB2B4C82A7009D782B /* GalleryView.swift in Sources */,
+				CA16ECF02B7AB4B000B35487 /* AnimalGreedItemView.swift in Sources */,
 				CAE41B0E2B61409C009D782B /* InsetGalleryView.swift in Sources */,
 				CAE41B082B4EFC34009D782B /* AnimalListModel.swift in Sources */,
 				CAE41B0C2B4FF9DB009D782B /* HeadingView.swift in Sources */,
