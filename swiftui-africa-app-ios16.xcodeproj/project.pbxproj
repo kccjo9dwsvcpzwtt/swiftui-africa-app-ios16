@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		CA16ECF02B7AB4B000B35487 /* AnimalGreedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA16ECEF2B7AB4B000B35487 /* AnimalGreedItemView.swift */; };
 		CA16ECF62B85A9B600B35487 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA16ECF52B85A9B600B35487 /* Stickers.xcassets */; };
-		CA16ECFA2B85A9B600B35487 /* stickers-extention.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CA16ECF32B85A9B100B35487 /* stickers-extention.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA16ECFA2B85A9B600B35487 /* stickers-extention.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CA16ECF32B85A9B100B35487 /* stickers-extention.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CAE41AC72B4C2277009D782B /* swiftui_africa_app_ios16App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41AC62B4C2277009D782B /* swiftui_africa_app_ios16App.swift */; };
 		CAE41AC92B4C2277009D782B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41AC82B4C2277009D782B /* ContentView.swift */; };
 		CAE41ACB2B4C2278009D782B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE41ACA2B4C2278009D782B /* Assets.xcassets */; };
@@ -127,6 +127,7 @@
 		CAE41B232B75CAF7009D782B /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		CAEFB7902B886EAA00A0FA68 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		CAEFB7932B88787900A0FA68 /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
+		CAEFB7972B887F6800A0FA68 /* swiftui-africa-app-ios16.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swiftui-africa-app-ios16.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +171,7 @@
 		CAE41AC52B4C2277009D782B /* swiftui-africa-app-ios16 */ = {
 			isa = PBXGroup;
 			children = (
+				CAEFB7972B887F6800A0FA68 /* swiftui-africa-app-ios16.entitlements */,
 				CAEFB7922B88783B00A0FA68 /* Modifiers */,
 				CAE41B1C2B66AA98009D782B /* Helpers & Utilities */,
 				CAE41B022B4DABFE009D782B /* Extentions */,
@@ -438,6 +440,7 @@
 /* Begin PBXTargetDependency section */
 		CA16ECF92B85A9B600B35487 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = CA16ECF22B85A9B100B35487 /* stickers-extention */;
 			targetProxy = CA16ECF82B85A9B600B35487 /* PBXContainerItemProxy */;
 		};
@@ -614,6 +617,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftui-africa-app-ios16/swiftui-africa-app-ios16.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui-africa-app-ios16/Preview Content\"";
@@ -634,6 +638,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "svponomarenko.swiftui-africa-app-ios16";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -645,6 +652,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftui-africa-app-ios16/swiftui-africa-app-ios16.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui-africa-app-ios16/Preview Content\"";
@@ -665,6 +673,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "svponomarenko.swiftui-africa-app-ios16";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
