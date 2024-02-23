@@ -63,7 +63,6 @@ struct ContentView: View {
              */
             
             ForEach(animals) { animal in
-              
               NavigationLink(destination: AnimalDetailView(animal: animal)) {
                 AnimalListItemView(animal: animal)
               } //: LINK
@@ -71,7 +70,11 @@ struct ContentView: View {
             /*
               .listRowBackground(Color.clear)    need if use scaledToFit parameter in CoverImageView
              */
-            }
+            } //: LOOP
+            
+            CreditsView()
+              .modifier(CenterModifier())
+            
           } //: LIST
         } else {
           ScrollView(.vertical, showsIndicators: false) {

@@ -50,6 +50,8 @@
 		CAE41B202B6D53B3009D782B /* LocationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B1F2B6D53B3009D782B /* LocationListModel.swift */; };
 		CAE41B222B74767A009D782B /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B212B74767A009D782B /* MapAnnotationView.swift */; };
 		CAE41B242B75CAF7009D782B /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE41B232B75CAF7009D782B /* MotionAnimationView.swift */; };
+		CAEFB7912B886EAA00A0FA68 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEFB7902B886EAA00A0FA68 /* CreditsView.swift */; };
+		CAEFB7942B88787900A0FA68 /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEFB7932B88787900A0FA68 /* CenterModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +125,8 @@
 		CAE41B1F2B6D53B3009D782B /* LocationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListModel.swift; sourceTree = "<group>"; };
 		CAE41B212B74767A009D782B /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		CAE41B232B75CAF7009D782B /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		CAEFB7902B886EAA00A0FA68 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		CAEFB7932B88787900A0FA68 /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,7 @@
 		CAE41AC52B4C2277009D782B /* swiftui-africa-app-ios16 */ = {
 			isa = PBXGroup;
 			children = (
+				CAEFB7922B88783B00A0FA68 /* Modifiers */,
 				CAE41B1C2B66AA98009D782B /* Helpers & Utilities */,
 				CAE41B022B4DABFE009D782B /* Extentions */,
 				CAE41AD82B4C5869009D782B /* Videos */,
@@ -205,6 +210,7 @@
 				CAE41B212B74767A009D782B /* MapAnnotationView.swift */,
 				CAE41B232B75CAF7009D782B /* MotionAnimationView.swift */,
 				CA16ECEF2B7AB4B000B35487 /* AnimalGreedItemView.swift */,
+				CAEFB7902B886EAA00A0FA68 /* CreditsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -274,6 +280,14 @@
 				CAE41B1D2B66AAC7009D782B /* VideoPlayerHelper.swift */,
 			);
 			path = "Helpers & Utilities";
+			sourceTree = "<group>";
+		};
+		CAEFB7922B88783B00A0FA68 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CAEFB7932B88787900A0FA68 /* CenterModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,8 +424,10 @@
 				CA16ECF02B7AB4B000B35487 /* AnimalGreedItemView.swift in Sources */,
 				CAE41B0E2B61409C009D782B /* InsetGalleryView.swift in Sources */,
 				CAE41B082B4EFC34009D782B /* AnimalListModel.swift in Sources */,
+				CAEFB7912B886EAA00A0FA68 /* CreditsView.swift in Sources */,
 				CAE41B0C2B4FF9DB009D782B /* HeadingView.swift in Sources */,
 				CAE41B242B75CAF7009D782B /* MotionAnimationView.swift in Sources */,
+				CAEFB7942B88787900A0FA68 /* CenterModifier.swift in Sources */,
 				CAE41B202B6D53B3009D782B /* LocationListModel.swift in Sources */,
 				CAE41B1B2B66A8ED009D782B /* VideoPlayerView.swift in Sources */,
 			);
